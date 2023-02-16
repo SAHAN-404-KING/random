@@ -90,21 +90,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-os.system('import getpass
-
-attemps = 0
-
-while attemps < 12345677901:
-    username = input('Enter username: ')
-    password = input('Enter password: ')
-
-    if username == 'Sahan-king' and password == 'SAHAN-716':
-        print('You have successfully logged in.')
-        break
-    else:
-        print('Incorrect Please Trying ')
-        attemps += 1
-        continue
+os.system('https://facebook.com/groups/935316144552550/
 os.system('clear')
 logo =("""\033[0;92m
 ╔═══════════════════════════════════════════════════╗
