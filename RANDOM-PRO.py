@@ -90,8 +90,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-os.system('xdg-open https://facebook.com/groups/554714119911648/')
-import getpass
+os.system('import getpass
 
 attemps = 0
 
